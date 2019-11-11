@@ -28,5 +28,61 @@ body {
     margin: 10px;
     border-radius: 10px;
     padding: 10px;
-    background: chartreuse;
+    background: #5987ce;
+}
+
+.modal-container {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    width: 97.6%;
+    height: 48.5vh;
+    user-select: none;
+    border: none;
+    display: flex;
+    margin: auto;
+}
+
+.modal-container::after {
+    content: 'X';
+    /* position: absolute;
+    top: 40%;
+    right: 18%;
+    background: chocolate;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    background-color: #5987ce;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 17%;
+    cursor: pointer;
+}
+
+.modal-content {
+    background: #fff;
+    width: 60%;
+    margin: auto;
+    max-width: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
