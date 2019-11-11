@@ -4,7 +4,8 @@ body {
 
 .app {
     border: 1px solid;
-    padding: 20px;
+    border-radius: 10px;
+    background: #f4f4f4;
     width: 80%;
     margin: 0 auto;
 }
@@ -16,6 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 
 .answers {
@@ -31,15 +33,17 @@ body {
     border-radius: 10px;
     padding: 10px;
     background: #5987ce;
+    color: #ffffff;
 }
 
 .modal-container {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 8px;
-    left: 8.5%;
-    width: 83%;
-    height: 48.5vh;
+    left: 10.5%;
+    width: 79%;
+    height: 43.5%;
+    border-radius: 10px;
     user-select: none;
     border: none;
     display: flex;
