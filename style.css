@@ -5,6 +5,8 @@ body {
 .app {
     border: 1px solid;
     padding: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .questions {
@@ -35,8 +37,8 @@ body {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 8px;
-    left: 8px;
-    width: 97.6%;
+    left: 8.5%;
+    width: 83%;
     height: 48.5vh;
     user-select: none;
     border: none;
@@ -46,17 +48,6 @@ body {
 
 .modal-container::after {
     content: 'X';
-    /* position: absolute;
-    top: 40%;
-    right: 18%;
-    background: chocolate;
-    padding: 8px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-    line-height: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,19 +56,18 @@ body {
     border-radius: 50%;
     border: none;
     font-size: 20px;
-    background-color: #5987ce;
     color: #fff;
     position: absolute;
-    top: 40%;
-    right: 17%;
+    top: 0;
+    right: 0;
     cursor: pointer;
 }
 
 .modal-content {
     background: #fff;
-    width: 60%;
+    width: 50%;
     margin: auto;
-    max-width: 600px;
+    max-width: 300px;
     position: relative;
     top: 0;
     left: 0;
