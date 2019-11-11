@@ -4,7 +4,7 @@
     let appMultipleChoice = document.getElementById("app");
     let questions = [{
         question: "¿Quién escribió La Odisea?",
-        answers: ["Odiseo", "Homero", "Carol XD"],
+        answers: ["Odiseo", "Homero", "Maquiavelo"],
         answerCorrect: 1
     }, {
         question: " ¿Cuándo acabó la II Guerra Mundial?",
